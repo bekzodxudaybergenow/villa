@@ -1,3 +1,6 @@
+@import './var';
+@import './header';
+
 *,
 *::before,
 *::after {
@@ -10,4 +13,9 @@ body {
     font-size: 16px;
     font-weight: 400;
     line-height: 25px;
+}
+.container {
+    max-width: 1405px;
+    padding: 0 20px;
+    margin: 0 auto;
 }

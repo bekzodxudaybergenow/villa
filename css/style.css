@@ -1,3 +1,107 @@
+:root {
+  --BLACK: #000;
+  --WHITE: #fff;
+  --LIGHT-TAUPE: #B18E72;
+  --VAMPIRE-BLACK: #0A0A0A;
+  --poppins: "Poppins", sans-serif;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../font/Poppins/Poppins-Regular.woff2") format("woff2"), url("../font/Poppins/Poppins-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../font/Poppins/Poppins-Medium.woff2") format("woff2"), url("../font/Poppins/Poppins-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../font/Poppins/Poppins-SemiBold.woff2") format("woff2"), url("../font/Poppins/Poppins-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../font/Poppins/Poppins-Bold.woff2") format("woff2"), url("../font/Poppins/Poppins-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+.header-row {
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+}
+
+.header-left {
+  max-width: 288px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo img {
+  display: block;
+}
+
+.header-social {
+  display: flex;
+  align-items: center;
+}
+
+.social-link + * {
+  margin-left: 20px;
+}
+.social-link svg {
+  display: block;
+}
+.social-link svg path {
+  transition: ease-in-out 0.2s;
+}
+.social-link:hover svg path {
+  fill: var(--LIGHT-TAUPE);
+}
+
+.header-center {
+  margin-left: 199px;
+}
+
+.nav {
+  cursor: default;
+}
+
+.nav-link {
+  font-weight: 500;
+  line-height: 24px;
+  text-decoration: none;
+  color: var(--BLACK);
+  transition: ease-in-out 0.2s;
+}
+.nav-link + * {
+  margin-left: 20px;
+}
+.nav-link:hover {
+  color: var(--LIGHT-TAUPE);
+}
+
+.header-right {
+  margin-left: auto;
+}
+
+.search-btn svg {
+  display: block;
+}
+.search-btn path {
+  transition: ease-in-out 0.2s;
+}
+.search-btn:hover path {
+  stroke: var(--LIGHT-TAUPE);
+}
+
 *,
 *::before,
 *::after {
@@ -11,4 +115,10 @@ body {
   font-size: 16px;
   font-weight: 400;
   line-height: 25px;
+}
+
+.container {
+  max-width: 1405px;
+  padding: 0 20px;
+  margin: 0 auto;
 }/*# sourceMappingURL=style.css.map */
