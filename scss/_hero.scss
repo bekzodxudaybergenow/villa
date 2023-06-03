@@ -1,0 +1,38 @@
+.hero-row {
+    height: 600px;
+    background-image: url('../img/hero/hero-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.hero-content {
+    position: relative;
+    top: 69px;
+    left: 144px;
+    max-width: 331px;
+    border: 6px solid var(--LIGHT-TAUPE);
+    padding: 59px 0 37px 56px;
+}
+.hero-title {
+    width: 464px;
+    position: relative;
+    font-weight: 600;
+    font-size: 80px;
+    line-height: 90px;
+    color: var(--WHITE);
+}
+.hero-price {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 46px;
+    color: var(--WHITE);
+    margin-bottom: 29px;
+}
+.hero-btn.btn {
+    transition: ease-in-out .2s;
+
+    &:hover {
+        color: var(--WHITE);
+        background-color: var(--VAMPIRE-BLACK);
+    }
+}

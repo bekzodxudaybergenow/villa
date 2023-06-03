@@ -1,5 +1,6 @@
 @import './var';
 @import './header';
+@import './hero';
 
 *,
 *::before,
@@ -14,8 +15,23 @@ body {
     font-weight: 400;
     line-height: 25px;
 }
+.wrapper-row {
+    min-height: 100vh;
+}
 .container {
     max-width: 1405px;
     padding: 0 20px;
     margin: 0 auto;
+}
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 168px;
+    height: 47px;
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--VAMPIRE-BLACK);
+    text-decoration: none;
+    background-color: var(--WHITE);
 }
