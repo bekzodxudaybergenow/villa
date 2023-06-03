@@ -3,6 +3,8 @@
   --WHITE: #fff;
   --LIGHT-TAUPE: #B18E72;
   --VAMPIRE-BLACK: #0A0A0A;
+  --TAUPE-GRAY: #888888;
+  --CHINESE-SILVER: #CCCCCC;
   --poppins: "Poppins", sans-serif;
 }
 
@@ -142,6 +144,83 @@
 .hero-btn.btn:hover {
   color: var(--WHITE);
   background-color: var(--VAMPIRE-BLACK);
+}
+
+.info {
+  padding: 53px 0 51px;
+}
+
+.info-row {
+  display: flex;
+  -moz-column-gap: 40px;
+       column-gap: 40px;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1135px;
+  margin: 0 auto;
+}
+
+.info-content {
+  max-width: 445px;
+}
+
+.info-title {
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 46px;
+  margin-bottom: 24px;
+}
+
+.info-desc {
+  margin-bottom: 37px;
+}
+
+.info-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.info-list-item {
+  display: flex;
+  -moz-column-gap: 15px;
+       column-gap: 15px;
+}
+.info-list-item + * {
+  padding-top: 18px;
+  margin-top: 13px;
+  border-top: 1px solid var(--CHINESE-SILVER);
+}
+
+.info-item-first,
+.info-item-second {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 14px;
+       column-gap: 14px;
+  max-width: 215px;
+  width: 100%;
+}
+
+.info-item-img img {
+  display: block;
+}
+
+.info-desc-subtitle {
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--TAUPE-GRAY);
+}
+
+.info-desc-num {
+  font-weight: 600;
+}
+
+.info-picture img {
+  width: 560px;
+  height: 555px;
+  display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 *,
