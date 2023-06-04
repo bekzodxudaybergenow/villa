@@ -1,0 +1,54 @@
+.amenities {
+    padding: 50px 0 60px;
+    background-color: var(--VAMPIRE-BLACK);
+}
+.amenities-row {
+    display: flex;
+    column-gap: 20px;
+    justify-content: space-between;
+    max-width: 1179px;
+    margin: 0 auto;
+}
+.amenities-content {
+    max-width: 443px;
+    color: var(--WHITE);
+}
+.amenities-content-title {
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 46px;
+    margin-bottom: 24px;
+}
+.amenities-content-desc {
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+.amenities-list {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 36px;
+    max-width: 305px;
+    list-style: none;
+}
+.amenities-item + * {
+    margin-bottom: 18px;
+}
+.amenities-item-subtitle {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 6px;
+}
+.amenities-item-desc {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+.amenities-img {
+    max-width: 628px;
+    height: 440px;
+    & img {
+        width: 100%;
+        height: 100%;
+    }
+}
