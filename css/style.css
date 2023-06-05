@@ -483,6 +483,122 @@
   border: none;
 }
 
+.footer {
+  padding: 59px 0 10px;
+  background-color: var(--VAMPIRE-BLACK);
+}
+
+.footer-row {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 22.5px;
+}
+
+.footer-list {
+  display: flex;
+  -moz-column-gap: 17px;
+       column-gap: 17px;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  list-style: none;
+}
+
+.footer-list-item {
+  width: 329px;
+}
+
+.footer-item-title,
+.footer-form-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 49px;
+  margin-bottom: 15px;
+  color: var(--WHITE);
+}
+
+.footer-item-desc,
+.footer-item-faq-link,
+.footer-item-useful-link {
+  line-height: 28px;
+  color: var(--WHITE);
+  text-decoration: none;
+}
+
+.footer-item-faq-link,
+.footer-item-useful-link {
+  outline-color: var(--LIGHT-TAUPE);
+  transition: ease-in-out 0.2s;
+}
+.footer-item-faq-link:hover,
+.footer-item-useful-link:hover {
+  color: var(--LIGHT-TAUPE);
+}
+
+.footer-form {
+  max-width: 324px;
+}
+
+.footer-form-input {
+  height: 35px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28px;
+  background-color: transparent;
+  width: 100%;
+  outline: none;
+  border: none;
+  color: var(--WHITE);
+  border-bottom: 1px solid var(--WHITE);
+}
+.footer-form-input + * {
+  margin-top: 12px;
+}
+.footer-form-input::-moz-placeholder {
+  color: var(--WHITE);
+  text-transform: uppercase;
+}
+.footer-form-input::placeholder {
+  color: var(--WHITE);
+  text-transform: uppercase;
+}
+.footer-form-input:focus {
+  border-bottom: 3px solid var(--LIGHT-TAUPE);
+}
+
+.form-footer-btn.btn {
+  max-width: 151px;
+  width: 100%;
+  font-weight: 500;
+  font-size: 14px;
+  text-transform: uppercase;
+  border: 1px solid var(--WHITE);
+  color: var(--WHITE);
+  background-color: transparent;
+  cursor: pointer;
+  transition: ease-in-out 0.2s;
+  outline-color: var(--LIGHT-TAUPE);
+}
+.form-footer-btn.btn:hover {
+  background-color: var(--LIGHT-TAUPE);
+  border: none;
+}
+
+.footer-desc {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 36px;
+  color: var(--WHITE);
+  padding-top: 12.5px;
+  text-align: center;
+  border-top: 1px solid var(--WHITE);
+}
+
 *,
 *::before,
 *::after {
