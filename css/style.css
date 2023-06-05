@@ -452,9 +452,11 @@
   border-bottom: 1px solid var(--TAUPE-GRAY);
 }
 .form-input::-moz-placeholder {
+  text-transform: uppercase;
   color: var(--TAUPE-GRAY);
 }
 .form-input::placeholder {
+  text-transform: uppercase;
   color: var(--TAUPE-GRAY);
 }
 .form-input:focus {
@@ -470,6 +472,7 @@
   height: 49px;
   font-weight: 500;
   font-size: 14px;
+  text-transform: uppercase;
   margin-top: 38px;
   cursor: pointer;
   outline-color: var(--LIGHT-TAUPE);
