@@ -64,5 +64,36 @@
     line-height: 49px;
     margin-bottom: 24px;
 }
-.btn {
+.form-input {
+    height: 51px;
+    font-size: 16px;
+    color: var(--TAUPE-GRAY);
+    outline: none;
+    border: none;
+    border-bottom: 1px solid var(--TAUPE-GRAY);
+    
+    &::placeholder {
+        color: var(--TAUPE-GRAY);
+    }
+    &:focus {
+        border-bottom: 4px solid var(--LIGHT-TAUPE);
+    }
+}
+.form-input + * {
+    margin-top: 15px;
+}
+.form-btn.btn {
+    max-width: 186px;
+    height: 49px;
+    font-weight: 500;
+    font-size: 14px;
+    margin-top: 38px;
+    cursor: pointer;
+    outline-color: var(--LIGHT-TAUPE);
+    transition: ease-in-out .2s;
+
+    &:hover {
+        background-color: var(--LIGHT-TAUPE);
+        border: none;
+    }
 }
