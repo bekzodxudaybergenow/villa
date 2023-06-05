@@ -30,6 +30,7 @@
 }
 .hero-btn.btn {
     transition: ease-in-out .2s;
+    outline-color: var(--LIGHT-TAUPE);
 
     &:hover {
         color: var(--WHITE);

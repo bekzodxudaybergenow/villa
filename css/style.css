@@ -46,6 +46,9 @@
   align-items: center;
 }
 
+.header-logo a {
+  outline-color: var(--LIGHT-TAUPE);
+}
 .header-logo img {
   display: block;
 }
@@ -55,6 +58,9 @@
   align-items: center;
 }
 
+.social-link {
+  outline-color: var(--LIGHT-TAUPE);
+}
 .social-link + * {
   margin-left: 20px;
 }
@@ -82,6 +88,7 @@
   text-decoration: none;
   color: var(--BLACK);
   transition: ease-in-out 0.2s;
+  outline-color: var(--LIGHT-TAUPE);
 }
 .nav-link + * {
   margin-left: 20px;
@@ -94,6 +101,9 @@
   margin-left: auto;
 }
 
+.search-btn {
+  outline-color: var(--LIGHT-TAUPE);
+}
 .search-btn svg {
   display: block;
 }
@@ -140,6 +150,7 @@
 
 .hero-btn.btn {
   transition: ease-in-out 0.2s;
+  outline-color: var(--LIGHT-TAUPE);
 }
 .hero-btn.btn:hover {
   color: var(--WHITE);
