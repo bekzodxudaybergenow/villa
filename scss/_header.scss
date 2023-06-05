@@ -1,3 +1,11 @@
+.header {
+    position: fixed;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
+    width: 100%;
+    z-index: 1;
+    background-color: var(--WHITE);
+
+}
 .header-row {
     min-height: 70px;
     display: flex;
